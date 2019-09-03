@@ -8,9 +8,13 @@
 @import './assets/scss/general/reset', './assets/scss/general/global';
 
 
+/* <------------Hover Effects------------> */
+
+@import 'hover.css/scss/hover';
+
 /* <-------------Components-------------> */
 
 @import './components/app/App.scss';
-@import './components/banner/Banner.scss'
+@import './components/banner/Banner.scss';
 
 /* <----------End of Components----------> */
