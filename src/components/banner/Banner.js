@@ -29,22 +29,22 @@ function Banner() {
 	        },
 	        {
             children: <div className='header-wrapper'><h1 className='header'>Krisli Dimo</h1></div>,
-            amount: 1,
+            amount: 0,
             expanded: false,
 	        },
 	        {
             image: mountainMid,
-            amount: 0.44,
-            expanded: false,
-	        },
-	        {
-            children: <div className='title-wrapper'><h1 className='title'>Full Stack Developer</h1></div>,
             amount: 0.46,
             expanded: false,
 	        },
 	        {
+            children: <div className='title-wrapper'><h1 className='title'>Full Stack Developer</h1></div>,
+            amount: 0.47,
+            expanded: false,
+	        },
+	        {
             image: mountainBase,
-            amount: 0.40,
+            amount: 0.44,
             expanded: false,
 	        },
 	        {
