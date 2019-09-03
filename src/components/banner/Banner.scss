@@ -1,29 +1,59 @@
 .banner {
-	.header-wrapper {
-		display: flex;
-		 justify-content: flex-start; 
-		// justify-content: center;
-		font-family: $large-font;
-		height: 75%;
-		width: 100%;
-		// align-items: center;
+	// top: 0;
+	font-family: $large-font;
 
-		.header {
+	.top-wrapper {
+		display: flex;
+		justify-content: space-between; 
+		align-items: center;
+		width: 100%;
+
+		.name {
 			color: white;
-			margin: 1.6rem 2rem;
-			font-size: 2.4rem;
-			width: 40%;
-			// font-size: 3rem;
-			position: absolute;
+			font-size: 2.2rem;
+			margin: 3rem 0 0 4.4rem;
 		}
+
+		.nav {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			flex-grow: 1;
+			margin: 3rem 4.4rem 0 0;
+
+			.nav-link {
+				color: white;
+				font-size: 1.6rem;
+				margin-left: 6%;
+
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+
+			.portfolio-link {
+				border: 3.4px solid white;
+				border-radius: 8px;
+				padding: 6px 48px;
+				background: none;
+				outline: none;
+
+			}
+		}
+	}
+
+	.bottom-wrapper {
+		display: flex;
+		justify-content: flex-start; 
+		width: 100%;
 	}
 
 	.title-wrapper {
 		display: flex;
 		justify-content: center;
-		font-family: $large-font;
-		height: 95%;
 		align-items: center;
+		height: 95%;
+
 		.title {
 			color: white;
 			font-size: 62px;
