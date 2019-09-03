@@ -29,7 +29,7 @@ function Banner() {
 	        },
 	        {
             children: <div className='header-wrapper'><h1 className='header'>Krisli Dimo</h1></div>,
-            amount: .96,
+            amount: 1,
             expanded: false,
 	        },
 	        {
