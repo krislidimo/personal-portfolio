@@ -1,0 +1,33 @@
+.banner {
+	.header-wrapper {
+		display: flex;
+		 justify-content: flex-start; 
+		// justify-content: center;
+		font-family: $large-font;
+		height: 75%;
+		width: 100%;
+		// align-items: center;
+
+		.header {
+			color: white;
+			margin: 1.6rem 2rem;
+			font-size: 2.4rem;
+			width: 40%;
+			// font-size: 3rem;
+			position: absolute;
+		}
+	}
+
+	.title-wrapper {
+		display: flex;
+		justify-content: center;
+		font-family: $large-font;
+		height: 95%;
+		align-items: center;
+		.title {
+			color: white;
+			font-size: 62px;
+			position: absolute;
+		}
+	}
+}
