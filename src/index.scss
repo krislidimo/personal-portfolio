@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* <-------------Var & Mixins-------------> */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+@import './scss/general/variables', './scss/general/mixin';
+
+
+/* <--------Reset & Global styles--------> */
+
+@import './scss/general/reset', './scss/general/global';
+
+
+/* <-------------Components-------------> */
+
+@import './App.scss';
+
+/* <----------End of Components----------> */
