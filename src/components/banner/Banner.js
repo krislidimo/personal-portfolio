@@ -28,11 +28,6 @@ function Banner() {
             expanded: false,
 	        },
 	        {
-            children: <div className='header-wrapper'><h1 className='header'>Krisli Dimo</h1></div>,
-            amount: 0,
-            expanded: false,
-	        },
-	        {
             image: mountainMid,
             amount: 0.46,
             expanded: false,
@@ -70,6 +65,18 @@ function Banner() {
 	        {
             image: landscapeRight,
             amount: 0.00,
+            expanded: false,
+	        },
+	        {
+            children: <div className='top-wrapper'>
+            	<h1 className='name'>Krisli Dimo</h1>
+            	<div className='nav'>
+            		<button className='nav-link portfolio-link hvr-float'>
+            			Portfolio
+            		</button>
+            	</div>
+            </div>,
+            amount: 0,
             expanded: false,
 	        },
 		    ]}
