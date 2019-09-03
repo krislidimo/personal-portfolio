@@ -1,5 +1,5 @@
 import React from 'react';
-import { ParallaxBanner } from 'react-scroll-parallax';
+import { ParallaxBanner, withController } from 'react-scroll-parallax';
 
 import mountain from '../../assets/images/mountain/mountain.jpg';
 import landscapeRight from '../../assets/images/mountain/landscape-right.png';
@@ -11,82 +11,96 @@ import mountainBase from '../../assets/images/mountain/mountain-base.png';
 import mountainMid from '../../assets/images/mountain/mountain-mid.png';
 import mountainPeak from '../../assets/images/mountain/mountain-peak.png';
 
-function Banner() {
-  return (
-    <div className="banner">
-	    <ParallaxBanner
-		    className="your-class"
-		    layers={[
-	        {
-            image: mountain,
-            amount: 0.53,
-            expanded: false,
-	        },
-	        {
-            image: mountainPeak,
-            amount: 0.48,
-            expanded: false,
-	        },
-	        {
-            image: mountainMid,
-            amount: 0.46,
-            expanded: false,
-	        },
-	        {
-            children: <div className='title-wrapper'><h1 className='title'>Full Stack Developer</h1></div>,
-            amount: 0.47,
-            expanded: false,
-	        },
-	        {
-            image: mountainBase,
-            amount: 0.44,
-            expanded: false,
-	        },
-	        {
-            image: forest3,
-            amount: 0.36,
-            expanded: false,
-	        },
-	        {
-            image: forest2,
-            amount: 0.30,
-            expanded: false,
-	        },
-	        {
-            image: forest1,
-            amount: 0.20,
-            expanded: false,
-	        },
-	        {
-            image: landscapeLeft,
-            amount: 0.10,
-            expanded: false,
-	        },
-	        {
-            image: landscapeRight,
-            amount: 0.00,
-            expanded: false,
-	        },
-	        {
-            children: <div className='top-wrapper'>
-            	<h1 className='name'>Krisli Dimo</h1>
-            	<div className='nav'>
-            		<button className='nav-link portfolio-link hvr-float'>
-            			Portfolio
-            		</button>
-            	</div>
-            </div>,
-            amount: 0,
-            expanded: false,
-	        },
-		    ]}
-		    style={{
-	        height: '100vh',
-		    }}
-			>
-			</ParallaxBanner>
-    </div>
-  );
+
+class Banner extends React.Component {
+
+	handleLoad = () => {
+		this.props.parallaxController.update();
+		window.scrollTo(0, 0);
+	}
+
+	render() {
+	  return (
+	    <div className="banner">
+		    <ParallaxBanner
+			    className="your-class"
+			    layers={[
+			    	{
+			    		children: <img src={mountain} onLoad={this.handleLoad} />,
+	            amount: 1,
+	            expanded: false,
+			    	},
+		        {
+	            image: mountain,
+	            amount: 0.53,
+	            expanded: false,
+		        },
+		        {
+	            image: mountainPeak,
+	            amount: 0.48,
+	            expanded: false,
+		        },
+		        {
+	            image: mountainMid,
+	            amount: 0.46,
+	            expanded: false,
+		        },
+		        {
+	            children: <div className='title-wrapper'><h1 className='title'>Full Stack Developer</h1></div>,
+	            amount: 0.47,
+	            expanded: false,
+		        },
+		        {
+	            image: mountainBase,
+	            amount: 0.44,
+	            expanded: false,
+		        },
+		        {
+	            image: forest3,
+	            amount: 0.36,
+	            expanded: false,
+		        },
+		        {
+	            image: forest2,
+	            amount: 0.30,
+	            expanded: false,
+		        },
+		        {
+	            image: forest1,
+	            amount: 0.20,
+	            expanded: false,
+		        },
+		        {
+	            image: landscapeLeft,
+	            amount: 0.10,
+	            expanded: false,
+		        },
+		        {
+	            image: landscapeRight,
+	            amount: 0.00,
+	            expanded: false,
+		        },
+		        {
+	            children: <div className='top-wrapper'>
+	            	<h1 className='name'>Krisli Dimo</h1>
+	            	<div className='nav'>
+	            		<button className='nav-link portfolio-link hvr-float'>
+	            			Portfolio
+	            		</button>
+	            	</div>
+	            </div>,
+	            amount: 0,
+	            expanded: false,
+		        },
+			    ]}
+			    style={{
+		        height: '100vh',
+			    }}
+				>
+				</ParallaxBanner>
+	    </div>
+	  );
+	}
 }
 
-export default Banner;
+export default withController(Banner);
