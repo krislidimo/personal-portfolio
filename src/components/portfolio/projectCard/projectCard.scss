@@ -1,0 +1,22 @@
+.project-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #594E88;
+	font-family: $roboto;
+	width: 21vw;
+	height: 14vw;
+	border-radius: 2%;
+
+	.inner {
+		color: white;
+		opacity: 0.8;
+		font-size: 2rem;
+		transform: translateZ(60px);
+	}
+}
+
+.tilty {
+	transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
