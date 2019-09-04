@@ -72,7 +72,7 @@ class Banner extends React.Component {
 		        },
 		        {
 	            image: landscapeLeft,
-	            amount: 0.10,
+	            amount: 0.05,
 	            expanded: false,
 		        },
 		        {
