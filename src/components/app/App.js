@@ -3,6 +3,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import SmoothScroll from 'smoothscroll-for-websites';
 
 import Banner from '../banner/Banner.js'
+import Portfolio from '../portfolio/Portfolio.js'
 
 SmoothScroll({ 
 	stepSize: 50,  // [px]
@@ -15,12 +16,8 @@ function App() {
     	<ParallaxProvider>
     		<Banner />
     	</ ParallaxProvider>
-    	
-    	<div style={{
-				height: '100vh',
-				'background-image': 'linear-gradient(to right, #262662 , #39387A)'
-			}}>
-			</div>
+
+    	<Portfolio />
     </div>
   );
 }
