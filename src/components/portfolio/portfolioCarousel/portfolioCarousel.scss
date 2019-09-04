@@ -1,0 +1,51 @@
+.portfolio-carousel {
+	width: 90%;
+	margin: 0 auto;
+	// max-width: 100%
+
+	.slick-slider {
+  	outline: none;
+
+		.slick-list {
+			// margin: 0 auto;
+			// width: 100%;
+
+			.slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        outline: none;
+        background-color: white;
+        opacity: .2;
+			}
+		}
+
+		.slick-dots {
+      // text-align: right;
+		}
+
+	  .slick-prev, .slick-next {
+	    filter: opacity(70%);
+      width: 3rem;
+      height: 3rem;
+	    z-index: 1;
+	  }
+
+    //Right arrow class
+	 	.slick-next { 
+      // background-image: url(${arrowRight});
+      // background-size: cover;
+		  right: 1%;
+      // &:before { display: none; }
+	  }
+
+    //Left arrow class
+	 	.slick-prev {
+      // background-image: url(${arrowLeft});
+      // background-size: cover;
+	    left: 1%;
+      // &:before { display: none; }
+	  }
+	}
+}
