@@ -26,7 +26,7 @@ class Banner extends React.Component {
 			    className="your-class"
 			    layers={[
 			    	{
-			    		children: <img src={mountain} onLoad={this.handleLoad} />,
+			    		children: <img src={mountain} onLoad={this.handleLoad} alt='Mountain banner image.' />,
 	            amount: 1,
 	            expanded: false,
 			    	},
