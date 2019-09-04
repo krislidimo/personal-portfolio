@@ -1,23 +1,14 @@
 .portfolio-carousel {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	// max-width: 100%
 
 	.slick-slider {
-  	outline: none;
-
 		.slick-list {
-			// margin: 0 auto;
-			// width: 100%;
-
 			.slick-slide {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 70vh;
-        outline: none;
-        background-color: white;
-        opacity: .2;
 			}
 		}
 
