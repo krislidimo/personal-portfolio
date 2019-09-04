@@ -1,0 +1,30 @@
+.portfolio-nav {
+	display: flex;
+	// flex-direction: column;
+	justify-content: space-between;
+	height: 12%;
+	align-items: center;
+	font-family: $roboto;
+	padding: 1.6rem 4.4rem;
+	border-radius: 0 0 20% 20%;
+  background-image: linear-gradient(to right, #262662 , #39387A);
+
+	.nav-item {
+		color: white;
+		font-size: 2rem;
+		opacity: 0.88;
+		margin-left: 3rem; 
+
+		&:first-child {
+			margin: 0;
+		}
+	}
+
+	.name {
+		color: white;
+		font-size: 2.6rem;
+		margin-right: 0 6rem;
+		opacity: 0.88;
+	}
+
+}
