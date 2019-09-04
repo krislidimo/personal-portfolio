@@ -37,7 +37,6 @@
 				padding: 6px 48px;
 				background: none;
 				outline: none;
-
 			}
 		}
 	}
@@ -56,6 +55,7 @@
 
 		.title {
 			color: white;
+			filter: drop-shadow(-2.8px 2.8px 3px #242663);
 			font-size: 62px;
 			position: absolute;
 		}
