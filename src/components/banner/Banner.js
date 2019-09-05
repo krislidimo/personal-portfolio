@@ -124,15 +124,15 @@ class Banner extends React.Component {
 		    				>
 		    				</ParallaxBanner>*/}
 		    <div id="parallax-container">
-					<div className="layer z-index-10" ><img src={mountain} /></div>
-					<div className="layer z-index-9" ><img src={mountainPeak} /></div>
-					<div className="layer z-index-8" ><img src={mountainMid} /></div>
+					<div className="layer z-index-10" ><img src={mountain} alt='Mountain banner image.' /></div>
+					<div className="layer z-index-9" ><img src={mountainPeak} alt='' /></div>
+					<div className="layer z-index-8" ><img src={mountainMid} alt='' /></div>
 					<div className="layer z-index-7" ><img src={mountainBase} /></div>
-					<div className="layer z-index-6" ><img src={forest3} /></div>
-					<div className="layer z-index-5" ><img src={forest2} /></div>
-					<div className="layer z-index-4" ><img src={forest1} /></div>
-					<div className="layer z-index-3" ><img src={landscapeLeft} /></div>
-					<div className="layer z-index-2" ><img src={landscapeRight} /></div>
+					<div className="layer z-index-6" ><img src={forest3} alt='' /></div>
+					<div className="layer z-index-5" ><img src={forest2} alt='' /></div>
+					<div className="layer z-index-4" ><img src={forest1} alt='' /></div>
+					<div className="layer z-index-3" ><img src={landscapeLeft} alt='' /></div>
+					<div className="layer z-index-2" ><img src={landscapeRight} alt='' /></div>
 
 					<div className='top-wrapper'>
 			    	<h1 className='name'>Krisli Dimo</h1>
