@@ -34,7 +34,7 @@ class Banner extends React.Component {
 	}
 
 	componentDidMount() {
-		window.addEventListener('scroll', throttle(this.parallax, .8), false)
+		window.addEventListener('scroll', throttle(this.parallax, .01), false)
 	}
 
 	render() {
