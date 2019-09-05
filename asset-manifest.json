@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/krislidimo/personal-portfolio/static/css/main.578a18ca.chunk.css",
+    "main.js": "/krislidimo/personal-portfolio/static/js/main.9cd4ebc7.chunk.js",
+    "main.js.map": "/krislidimo/personal-portfolio/static/js/main.9cd4ebc7.chunk.js.map",
+    "runtime~main.js": "/krislidimo/personal-portfolio/static/js/runtime~main.bd896ede.js",
+    "runtime~main.js.map": "/krislidimo/personal-portfolio/static/js/runtime~main.bd896ede.js.map",
+    "static/css/2.66f26aa3.chunk.css": "/krislidimo/personal-portfolio/static/css/2.66f26aa3.chunk.css",
+    "static/js/2.8473229c.chunk.js": "/krislidimo/personal-portfolio/static/js/2.8473229c.chunk.js",
+    "static/js/2.8473229c.chunk.js.map": "/krislidimo/personal-portfolio/static/js/2.8473229c.chunk.js.map",
+    "index.html": "/krislidimo/personal-portfolio/index.html",
+    "precache-manifest.5fb9ea8b96dd80b2187567a265a1e703.js": "/krislidimo/personal-portfolio/precache-manifest.5fb9ea8b96dd80b2187567a265a1e703.js",
+    "service-worker.js": "/krislidimo/personal-portfolio/service-worker.js",
+    "static/css/2.66f26aa3.chunk.css.map": "/krislidimo/personal-portfolio/static/css/2.66f26aa3.chunk.css.map",
+    "static/css/main.578a18ca.chunk.css.map": "/krislidimo/personal-portfolio/static/css/main.578a18ca.chunk.css.map",
+    "static/media/forest-1.png": "/krislidimo/personal-portfolio/static/media/forest-1.1515a780.png",
+    "static/media/forest-2.png": "/krislidimo/personal-portfolio/static/media/forest-2.0d8f7feb.png",
+    "static/media/forest-3.png": "/krislidimo/personal-portfolio/static/media/forest-3.e9315340.png",
+    "static/media/landscape-left.png": "/krislidimo/personal-portfolio/static/media/landscape-left.a9d66d1f.png",
+    "static/media/landscape-right.png": "/krislidimo/personal-portfolio/static/media/landscape-right.718ada9c.png",
+    "static/media/mountain-base.png": "/krislidimo/personal-portfolio/static/media/mountain-base.f3cba6c1.png",
+    "static/media/mountain-mid.png": "/krislidimo/personal-portfolio/static/media/mountain-mid.d37801ee.png",
+    "static/media/mountain-peak.png": "/krislidimo/personal-portfolio/static/media/mountain-peak.a00822e0.png",
+    "static/media/mountain.jpg": "/krislidimo/personal-portfolio/static/media/mountain.b4145827.jpg",
+    "static/media/slick-theme.css": "/krislidimo/personal-portfolio/static/media/slick.f97e3bbf.svg"
+  }
+}
