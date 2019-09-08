@@ -5,7 +5,7 @@ import Banner from '../banner/Banner.js'
 import Portfolio from '../portfolio/Portfolio.js'
 
 SmoothScroll({ 
-	stepSize: 40,  // [px]
+	stepSize: 30,  // [px]
 	animationTime: 500, // [ms]
 })
 
