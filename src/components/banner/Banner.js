@@ -17,20 +17,23 @@ class Banner extends React.Component {
 	parallax = () => {
 		let parent = document.getElementById('parallax-container');
 		let children = parent.getElementsByTagName('div');
+		let offSets = [
+			0,    // mountain
+			0.1,  // mountainPeak
+			0.2,  // mountainMid
+			0.3,  // mountainBase
+			1,    // forest3
+			2,    // forest2
+			4,    // forest1
+			6,    // landscapeLeft
+			6.6 , // landscapeRight
+			12,   // top-wrapper
+			12    // title
+		]
 
-		// Set off-set of each layer as you scroll
-		children[0].style.transform = 'translateY(-' + (window.pageYOffset * 0 / children.length) + 'px)';    // mountain
- 		children[1].style.transform = 'translateY(-' + (window.pageYOffset * 0.2 / children.length) + 'px)';  // mountainPeak
- 		children[2].style.transform = 'translateY(-' + (window.pageYOffset * 0.4 / children.length) + 'px)';  // mountainMid
- 		children[3].style.transform = 'translateY(-' + (window.pageYOffset * 0.6 / children.length) + 'px)';  // mountainBase
- 		children[4].style.transform = 'translateY(-' + (window.pageYOffset * 1 / children.length) + 'px)';    // forest3
- 		children[5].style.transform = 'translateY(-' + (window.pageYOffset * 3 / children.length) + 'px)';    // forest2
- 		children[6].style.transform = 'translateY(-' + (window.pageYOffset * 5 / children.length) + 'px)';    // forest1
- 		children[7].style.transform = 'translateY(-' + (window.pageYOffset * 8 / children.length) + 'px)';    // landscapeLeft
- 		children[8].style.transform = 'translateY(-' + (window.pageYOffset * 8.6 / children.length) + 'px)';  // landscapeRight
- 
-		children[9].style.transform = 'translateY(-' + (window.pageYOffset * 12 / children.length) + 'px)';   // top-wrapper
-		children[10].style.transform = 'translateY(-' + (window.pageYOffset * 12 / children.length) + 'px)';  // title
+		for(let i = 0; i < children.length; i++) {
+    	children[i].style.transform = 'translateY(-' + (window.pageYOffset * offSets[i] / children.length) + 'px)';
+    }
 	}
 
 	componentDidMount() {
