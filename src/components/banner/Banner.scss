@@ -1,7 +1,6 @@
 .banner {
-	// top: 0;
 	font-family: $large-font;
-
+	
 	.top-wrapper {
 		display: flex;
 		justify-content: space-between; 
@@ -49,11 +48,12 @@
 
 	.title-wrapper {
 		position: fixed;
+
 		.title {
 			color: white;
 			filter: drop-shadow(-2.8px 2.8px 3px #242663);
-			font-size: 62px;
-			padding-bottom: 36px;
+			font-size: 3.6rem;
+			padding-bottom: 50px;
 		}
 	}
 
