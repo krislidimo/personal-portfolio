@@ -1,18 +1,34 @@
 .project-card {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	background-color: #594E88;
 	font-family: $roboto;
 	width: 21vw;
 	height: 14vw;
 	border-radius: 2%;
 
-	.inner {
+	.title {
 		color: white;
+		width: 42%;
 		opacity: 0.8;
-		font-size: 2rem;
-		transform: translateZ(60px);
+		font-size: 1.2rem;
+		transform: translateZ(60px); //tilt effect on hove
+		margin-top: 30%;
+		margin-left: -10%;
+		padding-bottom: 8px;
+		border-bottom: 3px solid white;
+	}
+
+	.project-number {
+		color: white;
+		font-size: 1rem;
+		transform: translateZ(60px); //tilt effect on hove
+		margin-top: 10px;
+		margin-left: -10%;
 	}
 }
 
