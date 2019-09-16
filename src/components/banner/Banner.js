@@ -28,7 +28,7 @@ class Banner extends React.Component {
 			6,    // landscapeLeft
 			6.6 , // landscapeRight
 			12,   // top-wrapper
-			12    // title
+			.1    // title
 		]
 
 		for(let i = 0; i < children.length; i++) {
@@ -56,17 +56,17 @@ class Banner extends React.Component {
 					<div className="layer z-index-2" ><img src={landscapeRight} alt='' /></div>
 
 					{/*Name & Nav*/}
-					<div className='top-wrapper'>
-			    	<h1 className='name'>Krisli Dimo</h1>
-			    	<div className='nav'>
-			    		<button className='nav-link portfolio-link'>
-			    			Portfolio
-			    		</button>
-			    	</div>
+		    	<div className='nav'>
+		    		<h1 className='name'>Krisli Dimo</h1>
+		    		<button className='nav-link portfolio-link'>
+		    			Portfolio
+		    		</button>
 			    </div>
 
 			  	{/*Title*/}
-					<div className='title-wrapper layer z-index-8'><h1 className='title'>Full Stack Developer</h1></div>
+					<div className='title-wrapper layer z-index-8'>
+						<h1 className='title'><span>Full</span> <span>Stack</span> <span>Developer</span></h1>
+					</div>
 				</div>
 	    </div>
 	  );
