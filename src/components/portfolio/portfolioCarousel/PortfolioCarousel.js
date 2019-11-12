@@ -15,22 +15,23 @@ import postgreslogo from "../../../assets/images/icons/postgresql.png";
 import gsaplogo from "../../../assets/images/icons/gsap.png";
 import springlogo from "../../../assets/images/icons/spring3.png";
 
-const htmlIcon = <i class="fab fa-html5 fa-5x"></i>;
-const cssIcon = <i class="fab fa-css3 fa-5x"></i>;
-const jsIcon = <i class="fab fa-js-square fa-5x"></i>;
-const reactIcon = <i class="fab fa-react fa-5x"></i>
-const nodeIcon = <i class="fab fa-node fa-5x"></i>;
-const javaIcon = <i class="fab fa-java fa-5x"></i>;
-const pythonIcon = <i class="fab fa-python fa-5x"></i>;
-const reduxIcon = <img class="fab img-icon redux-logo" src={reduxlogo} alt='redux logo'/>;
-const postgresIcon = <img class="fab img-icon redux-logo" src={postgreslogo} alt='postgres logo'/>;
-const gsapIcon = <img class="fab img-icon redux-logo" src={gsaplogo} alt='gsap logo'/>;
-const springIcon = <img class="fab img-icon redux-logo" src={springlogo} alt='spring logo'/>;
+const htmlIcon = <i className="fab fa-html5 fa-5x"></i>;
+const cssIcon = <i className="fab fa-css3 fa-5x"></i>;
+const jsIcon = <i className="fab fa-js-square fa-5x"></i>;
+const reactIcon = <i className="fab fa-react fa-5x"></i>
+const nodeIcon = <i className="fab fa-node fa-5x"></i>;
+const javaIcon = <i className="fab fa-java fa-5x"></i>;
+const pythonIcon = <i className="fab fa-python fa-5x"></i>;
+const reduxIcon = <img className="fab img-icon redux-logo" src={reduxlogo} alt='redux logo'/>;
+const postgresIcon = <img className="fab img-icon redux-logo" src={postgreslogo} alt='postgres logo'/>;
+const gsapIcon = <img className="fab img-icon redux-logo" src={gsaplogo} alt='gsap logo'/>;
+const springIcon = <img className="fab img-icon redux-logo" src={springlogo} alt='spring logo'/>;
 
 class PortfolioCarousel extends React.Component {
   constructor() {
     super()
     this.state = {
+      width: window.innerWidth,
       currentSlide: {
         'title': "Nifty Market",
         'src': img1,
@@ -60,7 +61,7 @@ class PortfolioCarousel extends React.Component {
           'title': "Macro Calculator",
           'src': "",
           'id': '03',
-          'stack': [javaIcon,postgresIcon,springIcon]
+          'stack': [javaIcon,springIcon,postgresIcon]
         },
         {
           'title': "Treasure Hunter",
@@ -86,6 +87,7 @@ class PortfolioCarousel extends React.Component {
       slide.addEventListener('mouseup', this.updateCurrentProject)
     })
     this.updateCurrentProject()
+    window.onresize = this.resize;
   }
 
   updateCurrentProject = () => {
@@ -98,23 +100,36 @@ class PortfolioCarousel extends React.Component {
       })
     },300)
   }
+
+  resize = () => {
+    this.setState({
+      ...this.state,
+      width: window.innerWidth
+    })
+  }
+
   
   render () {
+    console.log(this.state.width)
+    var slides = 3 
+    if (this.state.width <= 500) {
+      slides = 1
+    }
     const settings = {
       infinite: true,
       centerPadding: "60px",
-      slidesToShow: 3,
+      slidesToShow: slides ,
       dots: true,
       speed: 500,
     };
 
     return (
       <div className="portfolio-carousel">
-        <h2 className="title">{this.state.currentSlide.id + " | " +this.state.currentSlide.title}</h2>
+        <h2 className="title">{this.state.currentSlide.id + " - " +this.state.currentSlide.title}</h2>
 
         <Slider {...settings}>
           {this.state.projects.map(project => {
-            return <div key={project.id}>
+            return <div key={parseInt(project.id)}>
               <ProjectCard project={project}/>
             </div>
           })}
@@ -126,7 +141,7 @@ class PortfolioCarousel extends React.Component {
 
         <div className="tech-stack">
           {this.state.currentSlide.stack.map((stackIcon) => (
-            stackIcon
+              stackIcon
           ))}
         </div>
       </div>
