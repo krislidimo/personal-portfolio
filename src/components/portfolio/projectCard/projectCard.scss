@@ -1,38 +1,30 @@
 .project-card {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
+	align-items: flex-end;
 	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #594E88;
 	font-family: $roboto;
-	width: 21vw;
-	height: 14vw;
+	width: 17vw;
+	height: 11vw;
 	border-radius: 2%;
-
-	.title {
-		color: white;
-		width: 42%;
-		opacity: 0.8;
-		font-size: 1.2rem;
-		transform: translateZ(60px); //tilt effect on hove
-		margin-top: 30%;
-		margin-left: -10%;
-		padding-bottom: 8px;
-		border-bottom: 3px solid white;
-	}
 
 	.project-number {
 		color: white;
 		font-size: 1rem;
-		transform: translateZ(60px); //tilt effect on hove
-		margin-top: 10px;
-		margin-left: -10%;
+		transform: translateZ(20px); //tilt effect on hove
+		border-bottom: 3px solid white;
+		opacity: 0.9;
+		margin-bottom: 1vw;
+		margin-right: 1vw;
+		filter: drop-shadow(0px 0px 3px #242663);
 	}
 }
 
 .tilty {
 	transform-style: preserve-3d;
-  transform: perspective(1000px);
+	transform: perspective(1000px) translateZ(10px);
 }
