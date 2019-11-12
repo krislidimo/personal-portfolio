@@ -10,7 +10,7 @@
 		opacity: 0.5;
 		font-size: 2rem;
 		border-bottom: 3px solid white;
-		padding: 0 20px 6px 20px;
+		padding: 0 14px 6px 14px;
 		margin-top: 20px;
 	}
 
@@ -105,6 +105,14 @@
 		.description {
 			text-align: center;
 			width: 90%;
-		}			
+		}
+		.slick-slider {
+			margin: 2rem auto 2.8rem;
+			.slick-list {
+				.slick-slide {
+					height: 30vw;
+				}
+			}
+		}
 	}
 }
