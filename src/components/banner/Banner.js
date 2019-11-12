@@ -27,13 +27,13 @@ class Banner extends React.Component {
 			4,    // forest1
 			6,    // landscapeLeft
 			6.6 , // landscapeRight
-			12,   // top-wrapper
+			0,   // nav
 			.1    // title
 		]
 
 		for(let i = 0; i < children.length; i++) {
-    	children[i].style.transform = 'translateY(-' + (window.pageYOffset * offSets[i] / children.length) + 'px)';
-    }
+		children[i].style.transform = 'translateY(-' + (window.pageYOffset * offSets[i] / children.length) + 'px)';
+	}
 	}
 
 	componentDidMount() {
@@ -41,10 +41,10 @@ class Banner extends React.Component {
 	}
 
 	render() {
-	  return (
-	    <div className="banner">
-		    <div id="parallax-container">
-		    	{/*Parallax Banner Layers*/}
+		return (
+			<div className="banner">
+				<div id="parallax-container">
+					{/*Parallax Banner Layers*/}
 					<div className="layer z-index-10" ><img src={mountain} alt='Mountain banner image.' /></div>
 					<div className="layer z-index-9" ><img src={mountainPeak} alt='' /></div>
 					<div className="layer z-index-8" ><img src={mountainMid} alt='' /></div>
@@ -56,20 +56,20 @@ class Banner extends React.Component {
 					<div className="layer z-index-2" ><img src={landscapeRight} alt='' /></div>
 
 					{/*Name & Nav*/}
-		    	<div className='nav'>
-		    		<h1 className='name'>Krisli Dimo</h1>
-		    		<button className='nav-link portfolio-link'>
-		    			Portfolio
-		    		</button>
-			    </div>
+					<div className='nav'>
+						<h1 className='name'>Krisli Dimo</h1>
+						<button className='nav-link portfolio-link' >
+							<a href="#portfolio">Portfolio</a>
+						</button>
+					</div>
 
-			  	{/*Title*/}
+					{/*Title*/}
 					<div className='title-wrapper layer z-index-8'>
 						<h1 className='title'><span>Full</span> <span>Stack</span> <span>Developer</span></h1>
 					</div>
 				</div>
-	    </div>
-	  );
+			</div>
+		);
 	}
 }
 
