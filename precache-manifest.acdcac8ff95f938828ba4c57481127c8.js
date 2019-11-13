@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0649c5d1da00ee9bc26312d7803e0acf",
+    "revision": "4fa04b03face89f576ac134a12852d33",
     "url": "/personal-portfolio/index.html"
   },
   {
-    "revision": "06449829d7fd93d552e6",
-    "url": "/personal-portfolio/static/css/2.8292d1c9.chunk.css"
+    "revision": "f2e1ca435a712e719e94",
+    "url": "/personal-portfolio/static/css/2.114ab09d.chunk.css"
   },
   {
-    "revision": "9de829a07dc10f2ca640",
-    "url": "/personal-portfolio/static/css/main.f3981993.chunk.css"
+    "revision": "c9c2b39bebb17cf16018",
+    "url": "/personal-portfolio/static/css/main.563c43a1.chunk.css"
   },
   {
-    "revision": "06449829d7fd93d552e6",
-    "url": "/personal-portfolio/static/js/2.c1aca7a4.chunk.js"
+    "revision": "f2e1ca435a712e719e94",
+    "url": "/personal-portfolio/static/js/2.bd2db498.chunk.js"
   },
   {
-    "revision": "9de829a07dc10f2ca640",
-    "url": "/personal-portfolio/static/js/main.701be00d.chunk.js"
+    "revision": "c9c2b39bebb17cf16018",
+    "url": "/personal-portfolio/static/js/main.d9ffeed8.chunk.js"
   },
   {
     "revision": "b6c78724519b03f93830",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b55a6c1fee431842feff360144b6e98d",
     "url": "/personal-portfolio/static/media/It's_Over_9000.b55a6c1f.PNG"
+  },
+  {
+    "revision": "8f3174b0eeac52e3d83066362910b333",
+    "url": "/personal-portfolio/static/media/avatar.8f3174b0.svg"
+  },
+  {
+    "revision": "44f28ff5ddf738f8add1df097a7cb4c1",
+    "url": "/personal-portfolio/static/media/down-arrow.44f28ff5.png"
   },
   {
     "revision": "1515a780fb282b08e191d59572d94909",
@@ -38,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9315340961af2ee1702c23c5bd513b9",
     "url": "/personal-portfolio/static/media/forest-3.e9315340.png"
+  },
+  {
+    "revision": "493b513a57b8127a9b9002236b1cac61",
+    "url": "/personal-portfolio/static/media/gsap.493b513a.png"
   },
   {
     "revision": "a9d66d1f1404ceaf40e0c21ffee2550b",
@@ -64,6 +76,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-portfolio/static/media/mountain.b4145827.jpg"
   },
   {
+    "revision": "3c56d66e3621f004e9199856e1f73e6d",
+    "url": "/personal-portfolio/static/media/mympy.3c56d66e.png"
+  },
+  {
+    "revision": "48cd0d847a8b9d415ca2379e4b5a388e",
+    "url": "/personal-portfolio/static/media/nifty-markets.48cd0d84.png"
+  },
+  {
+    "revision": "1dbeece2cc235d443ecee078a72ef3e5",
+    "url": "/personal-portfolio/static/media/postgresql.1dbeece2.png"
+  },
+  {
+    "revision": "ad6ef14b39bfe6b295b3579d1a094092",
+    "url": "/personal-portfolio/static/media/reduxIcon.ad6ef14b.png"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/personal-portfolio/static/media/slick.b7c9e1e4.woff"
   },
@@ -78,5 +106,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/personal-portfolio/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "94b32348c419b1056da6e159a93d49b4",
+    "url": "/personal-portfolio/static/media/treasure-hunter.94b32348.png"
   }
 ]);
