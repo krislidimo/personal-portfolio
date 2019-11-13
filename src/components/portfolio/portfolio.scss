@@ -1,5 +1,31 @@
-.portfolio {
-	height: 100vh;
-	background-image: linear-gradient(to right, #262662 , #39387A);
-	position: relative;
+.portfolio-wrapper {
+	.arrow {
+		display: flex;
+		justify-content: flex-end;
+		position: absolute;
+		width: 100%;
+		bottom: -2%;
+		right: 3.4rem;
+		opacity: 0.2;
+		transition: opacity 0.2s;
+		.arrow-img {
+			width: 6rem;
+		}
+
+		&:hover {
+			opacity: 0.4;
+		}
+
+		@media (max-width: 600px) {
+			justify-content: center;
+			// width: 100vw;
+			right: 0;
+		}
+	}
+
+	.portfolio {
+		height: 100vh;
+		background-image: linear-gradient(to right, #262662 , #39387A);
+		position: relative;
+	}
 }
