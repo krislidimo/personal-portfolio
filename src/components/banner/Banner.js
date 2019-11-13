@@ -27,13 +27,13 @@ class Banner extends React.Component {
 			4,    // forest1
 			6,    // landscapeLeft
 			6.6 , // landscapeRight
-			0,   // nav
+			0,    // nav
 			.1    // title
 		]
 
 		for(let i = 0; i < children.length; i++) {
-		children[i].style.transform = 'translateY(-' + (window.pageYOffset * offSets[i] / children.length) + 'px)';
-	}
+			children[i].style.transform = 'translateY(-' + (window.pageYOffset * offSets[i] / children.length) + 'px)';
+		}
 	}
 
 	componentDidMount() {
@@ -55,12 +55,9 @@ class Banner extends React.Component {
 					<div className="layer z-index-3" ><img src={landscapeLeft} alt='' /></div>
 					<div className="layer z-index-2" ><img src={landscapeRight} alt='' /></div>
 
-					{/*Name & Nav*/}
+					{/*Name*/}
 					<div className='nav'>
 						<h1 className='name'>Krisli Dimo</h1>
-						<button className='nav-link portfolio-link' >
-							<a href="#portfolio">Portfolio</a>
-						</button>
 					</div>
 
 					{/*Title*/}

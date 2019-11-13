@@ -6,47 +6,25 @@
 		display: flex;
 		justify-content: space-between; 
 		align-items: center;
-		margin: 3rem 4.4rem 0 4.4rem;
-		opacity: 0.8;
+		margin: 2.2rem 4.4rem 0 4.4rem;
+		opacity: 0.6;
+		z-index: 2;
 
 		.name {
 			color: white;
 			font-size: 2.2rem;
 		}
 
-		.portfolio-link {
-			border: 3.4px solid white;
-			border-radius: 8px;
-			background: none;
-
-			a {
-				display: flex;
-				color: white;
-				font-size: 1.6rem;
-				text-decoration: none;
-				outline: none;
-				padding: 6px 34px;
-			}
-
-			@media (max-width: 700px) {
-				display: none;				
-			}
-		}
-
-		@media (max-width: 700px) {
-			justify-content: center;				
+		@media (max-width: 600px) {
+			justify-content: center;
+			width: 100vw;
+			margin: 1.4rem 0 0;
 		}
 	}
 
-	.bottom-wrapper {
-		display: flex;
-		justify-content: flex-start; 
-		width: 100%;
-	}
 
 	.title-wrapper {
 		.title {
-			// display:flex;
 			color: white;
 			filter: drop-shadow(-2.8px 2.8px 3px #242663);
 			font-size: 3.6rem;
@@ -69,7 +47,6 @@
 	#parallax-container {
 		display: block;
 		height: 100vh;
-		// overflow: hidden;
 
 		.layer {
 			display: flex;
