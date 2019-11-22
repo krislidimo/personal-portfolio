@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f79f2800ff224026cfc37e71b06fb652",
+    "revision": "931d84fe9b11751f8e5cc39270091b44",
     "url": "/personal-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-portfolio/static/css/2.114ab09d.chunk.css"
   },
   {
-    "revision": "e5d39786d9e2d9f45cfe",
+    "revision": "f11b3f69f0c2d0d4b1d0",
     "url": "/personal-portfolio/static/css/main.749da9b3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-portfolio/static/js/2.a430c204.chunk.js"
   },
   {
-    "revision": "e5d39786d9e2d9f45cfe",
-    "url": "/personal-portfolio/static/js/main.d33ddfc6.chunk.js"
+    "revision": "f11b3f69f0c2d0d4b1d0",
+    "url": "/personal-portfolio/static/js/main.50874551.chunk.js"
   },
   {
     "revision": "b6c78724519b03f93830",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-portfolio/static/media/mympy.3c56d66e.png"
   },
   {
-    "revision": "48cd0d847a8b9d415ca2379e4b5a388e",
-    "url": "/personal-portfolio/static/media/nifty-markets.48cd0d84.png"
+    "revision": "ca55873722e2b187150f4506181d78c5",
+    "url": "/personal-portfolio/static/media/nifty-market.ca558737.png"
   },
   {
     "revision": "1dbeece2cc235d443ecee078a72ef3e5",
