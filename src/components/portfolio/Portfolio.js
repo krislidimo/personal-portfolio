@@ -19,8 +19,7 @@ function Portfolio() {
 
 	    <div className="portfolio" id="portfolio">
 			<PortfolioNav />
-			<Redirect exact from="/" to="/portfolio" />
-	    	<Route exact path="/portfolio" component={PortfolioCarousel} />
+	    	<Route exact path="/" component={PortfolioCarousel} />
 	    	<Route exact path="/about" component={About} />
 	    </div>
 	</div>
