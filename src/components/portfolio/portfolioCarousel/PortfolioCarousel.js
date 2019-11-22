@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import img0 from "../../../assets/images/It's_Over_9000.PNG";
-import img1 from "../../../assets/images/nifty-markets.png";
+import img1 from "../../../assets/images/nifty-market.png";
 import img2 from "../../../assets/images/mympy.png";
 import img4 from "../../../assets/images/treasure-hunter.png";
 import reduxlogo from "../../../assets/images/icons/reduxIcon.png";
@@ -36,8 +36,8 @@ class PortfolioCarousel extends React.Component {
         'title': "Nifty Market",
         'description': 'Nifty Market was built in a 4 day hackathon style event with myself and one other developer. My role was to develop a front-end application that acted as a marketplace for virtual items. Despite there only being two of us, my partner and I managed to built a site complete with user accounts and a fully functioning market place.',
         'src': img1,
-        'siteLink': "",
-        'githubLink': "",
+        'siteLink': "https://stupefied-euler-b8f63a.netlify.com/",
+        'githubLink': "https://github.com/nifty-market/Nifty-Market-FE",
         'id': '01',
         'stack': [htmlIcon,cssIcon,jsIcon,reactIcon,reduxIcon],
         'info': ''
@@ -57,7 +57,7 @@ class PortfolioCarousel extends React.Component {
           'title': "Nifty Market",
           'description': 'Nifty Market was built in a 4 day hackathon style event with myself and one other developer. My role was to develop a front-end application that acted as a marketplace for virtual items. Despite there only being two of us, my partner and I managed to built a site complete with user accounts and a fully functioning market place.',
           'src': img1,
-          'siteLink': "",
+          'siteLink': "https://stupefied-euler-b8f63a.netlify.com/",
           'githubLink': "https://github.com/nifty-market/Nifty-Market-FE",
           'id': '01',
           'stack': [htmlIcon,cssIcon,jsIcon,reactIcon,reduxIcon],
