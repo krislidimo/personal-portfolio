@@ -53,6 +53,7 @@
 		bottom: 0.6vw;
 		right: 0.8vw;
 		opacity: 0.9;
+		cursor: pointer;
 
 		&:active {
 			transform: translateZ(1px); //tilt effect on hover
