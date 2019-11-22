@@ -6,8 +6,8 @@ function PortfolioNav() {
 		<div className="portfolio-nav">
 			<h2 className="name">Krisli Dimo</h2>
 			<nav>
-				<NavLink className="nav-item" to="/portfolio">Portfolio</NavLink>
-				<NavLink className="nav-item" to="/about">About</NavLink>
+				<NavLink className="nav-item" exact to="/about">About</NavLink>
+				<NavLink className="nav-item" exact to="/">Portfolio</NavLink>
 			</nav>
 		</div>
 	);
