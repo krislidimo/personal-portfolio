@@ -1,0 +1,25 @@
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	font-size: 7rem;
+	color: white;
+
+	.mail {
+		color: white;
+		margin: 0 1%;
+	}
+
+	.fas, .fab {
+		margin: 0 1%;
+		opacity: 0.4;
+		transition: 0.2s;
+
+		&:hover {
+			opacity: .6
+		}
+	}
+
+}
