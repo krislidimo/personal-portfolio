@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://krislidimo.github.io/personal-portfolio",
+  "homepage": "https://krislidimo.com",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "hover.css": "^2.3.2",
