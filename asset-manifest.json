@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.749da9b3.chunk.css",
+    "main.css": "/static/css/main.7fa931d5.chunk.css",
     "main.js": "/static/js/main.67eff0c9.chunk.js",
     "main.js.map": "/static/js/main.67eff0c9.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.6dcebf9c.js",
@@ -9,10 +9,10 @@
     "static/js/2.a430c204.chunk.js": "/static/js/2.a430c204.chunk.js",
     "static/js/2.a430c204.chunk.js.map": "/static/js/2.a430c204.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e0ea151945d7de400bef73fa775c90be.js": "/precache-manifest.e0ea151945d7de400bef73fa775c90be.js",
+    "precache-manifest.50594ec2deb1195abc7799c65ab960fe.js": "/precache-manifest.50594ec2deb1195abc7799c65ab960fe.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.18585a14.chunk.css.map": "/static/css/2.18585a14.chunk.css.map",
-    "static/css/main.749da9b3.chunk.css.map": "/static/css/main.749da9b3.chunk.css.map",
+    "static/css/main.7fa931d5.chunk.css.map": "/static/css/main.7fa931d5.chunk.css.map",
     "static/media/It's_Over_9000.PNG": "/static/media/It's_Over_9000.b55a6c1f.PNG",
     "static/media/avatar.svg": "/static/media/avatar.8f3174b0.svg",
     "static/media/down-arrow.png": "/static/media/down-arrow.44f28ff5.png",
